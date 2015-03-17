@@ -6,8 +6,8 @@ gcc-4.9.2-boost-1.57
   To use it:
 
     $ mkdir -p /opt
-    $ mkdir -p /opt/gcc483
-    $ cd /opt/gcc483
+    $ mkdir -p /opt/gcc492
+    $ cd /opt/gcc492
     $ git clone https://github.com/centminmod/gcc-4.9.2-boost-1.57.git 4.9.2
     $ cd 4.9.2
     $ make
@@ -43,7 +43,7 @@ This script creates 4 subdirectories:
     bld        This is where the packages are built from source.
     rtf        This is where the packages are installed.
 
-When the build is complete you can safely remove the archives, bld and src directory trees to save disk space. In fact you can remove everything under directory /opt/gcc483/gcc/4.8.3/ except the contents of the /opt/gcc483/gcc/4.8.3/rtf directory tree to save disk space.
+When the build is complete you can safely remove the archives, bld and src directory trees to save disk space. In fact you can remove everything under directory /opt/gcc492/gcc/4.8.3/ except the contents of the /opt/gcc492/gcc/4.8.3/rtf directory tree to save disk space.
 
 Packages Installed
 ====================
