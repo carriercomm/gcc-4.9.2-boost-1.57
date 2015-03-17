@@ -3,7 +3,7 @@
 # It compiles, links and runs a small test program.
 
 # Setup the environment.
-MY_GXX_HOME="/opt/gcc492/gcc/4.9.2/rtf"
+MY_GXX_HOME="/opt/gcc492/4.9.2/rtf"
 export PATH="${MY_GXX_HOME}/bin:${PATH}"
 export LD_LIBRARY_PATH="${MY_GXX_HOME}/lib:${MY_GXX_HOME}/lib64:${LD_LIBRARY_PATH}"
 export LD_RUN_PATH="${MY_GXX_HOME}/lib:${MY_GXX_HOME}/lib64:${LD_LIBRARY_PATH}"
