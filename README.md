@@ -10,6 +10,7 @@ gcc-4.9.2-boost-1.57
     $ cd /opt/gcc492
     $ git clone https://github.com/centminmod/gcc-4.9.2-boost-1.57.git 4.9.2
     $ cd 4.9.2
+    $ chmod 0700 bld.sh
     $ make
 
 To clean up and remove everything you can run
